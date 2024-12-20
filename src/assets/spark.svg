@@ -1,0 +1,16 @@
+<svg viewBox="0 0 250 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Star -->
+  <path fill="#F58536" d="M186.7,18.4l-11.3-18.7c-1.7-2.8-5.8-2.8-7.6,0l-5.9,18.7l-18.9,5.9c-3,0.9-3,5.3,0,6.2l18.9,5.9l5.9,18.7
+    c1.7,2.8,5.8,2.8,7.6,0l11.3-18.7l18.9-5.9c3-0.9,3-5.3,0-6.2L186.7,18.4z"/>
+  
+  <!-- Text 'Spark' -->
+  <text x="10" y="75" font-family="Arial, sans-serif" font-size="60" fill="#FFFFFF" font-weight="bold">
+    Spa
+  </text>
+  <text x="130" y="75" font-family="Arial, sans-serif" font-size="60" fill="#FFFFFF" font-weight="bold">
+    r
+  </text>
+  <text x="160" y="75" font-family="Arial, sans-serif" font-size="60" fill="#FFFFFF" font-weight="bold">
+    k
+  </text>
+</svg>

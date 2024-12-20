@@ -1,0 +1,13 @@
+<svg width="512px" height="512px" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Green Background Square -->
+  <rect x="128" y="128" width="256" height="256" fill="#76B900"/>
+  
+  <!-- NVIDIA Eye Logo -->
+  <path d="M256 176c-48.6 0-92 30.2-110.8 72 18.8 41.8 62.2 72 110.8 72s92-30.2 110.8-72c-18.8-41.8-62.2-72-110.8-72zm0 112c-22.1 0-40-17.9-40-40s17.9-40 40-40 40 17.9 40 40-17.9 40-40 40z" fill="#FFFFFF"/>
+  
+  <!-- NVIDIA Text -->
+  <text x="50%" y="420" font-family="Arial, sans-serif" font-weight="bold" font-size="100" fill="#FFFFFF" text-anchor="middle">NVIDIA</text>
+  
+  <!-- CUDA Text -->
+  <text x="50%" y="480" font-family="Arial, sans-serif" font-weight="bold" font-size="100" fill="#FFFFFF" text-anchor="middle">CUDA</text>
+</svg>
