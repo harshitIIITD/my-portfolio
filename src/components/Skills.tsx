@@ -48,22 +48,22 @@ const SkillIcon = ({ name, icon, proficiency, level }: SkillProps) => {
 
 export const Skills = () => {
   const skills = [
-    { name: 'SQL', icon: '/src/assets/sql.svg', proficiency: 'Advanced - 5 years', level: 'Advanced' },
-    { name: 'MySQL', icon: '/src/assets/mysql.svg', proficiency: 'Advanced - 4 years', level: 'Advanced' },
-    { name: 'Laravel', icon: '/src/assets/Laravel.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
-    { name: 'AWS', icon: '/src/assets/aws.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
-    { name: 'Git', icon: '/src/assets/git.svg', proficiency: 'Expert - 6 years', level: 'Expert' },
-    { name: 'React', icon: '/src/assets/react.svg', proficiency: 'Advanced - 4 years', level: 'Advanced' },
-    { name: 'powerBI', icon: '/src/assets/powerBI.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
-    { name: 'C++', icon: '/src/assets/cpp.svg', proficiency: 'Advanced - 5 years', level: 'Advanced' },
-    { name: 'Python', icon: '/src/assets/python.svg', proficiency: 'Expert - 6 years', level: 'Expert' },
-    { name: 'TensorFlow', icon: '/src/assets/TensorFlow.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
-    { name: 'kotlin', icon: '/src/assets/kotlin.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
-    { name: 'Firebase', icon: '/src/assets/firebase.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
-    { name: 'Azure', icon: '/src/assets/Azure.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
-    { name: 'spark', icon: '/src/assets/spark.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
-    {name: 'java', icon: '/src/assets/java.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
-    {name: 'Nvidia Cuda', icon: '/src/assets/nvdiacuda.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
+    { name: 'SQL', icon: '/public/sql.svg', proficiency: 'Advanced - 5 years', level: 'Advanced' },
+    { name: 'MySQL', icon: '/public/mysql.svg', proficiency: 'Advanced - 4 years', level: 'Advanced' },
+    { name: 'Laravel', icon: '/public/Laravel.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
+    { name: 'AWS', icon: '/public/aws.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
+    { name: 'Git', icon: '/public/git.svg', proficiency: 'Expert - 6 years', level: 'Expert' },
+    { name: 'React', icon: '/public/react.svg', proficiency: 'Advanced - 4 years', level: 'Advanced' },
+    { name: 'powerBI', icon: '/public/powerBI.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
+    { name: 'C++', icon: '/public/cpp.svg', proficiency: 'Advanced - 5 years', level: 'Advanced' },
+    { name: 'Python', icon: '/public/python.svg', proficiency: 'Expert - 6 years', level: 'Expert' },
+    { name: 'TensorFlow', icon: '/public/TensorFlow.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
+    { name: 'kotlin', icon: '/public/kotlin.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
+    { name: 'Firebase', icon: '/public/firebase.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
+    { name: 'Azure', icon: '/public/Azure.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
+    { name: 'spark', icon: '/public/spark.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
+    {name: 'java', icon: '/public/java.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
+    {name: 'Nvidia Cuda', icon: '/public/nvdiacuda.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
   ]
 
   return (

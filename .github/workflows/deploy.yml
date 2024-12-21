@@ -5,13 +5,19 @@ on:
     branches:
       - main
 
-# Add these permissions
+# Update permissions block
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    # Add environment configuration
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -19,8 +25,13 @@ jobs:
           node-version: '18'
       - run: npm ci
       - run: npm run build
+      - name: Create .nojekyll file
+        run: touch dist/.nojekyll
+      # Update the deployment step
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          force_orphan: true

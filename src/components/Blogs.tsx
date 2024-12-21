@@ -68,7 +68,7 @@ export const Blogs = () => {
       excerpt: " Solar panels enable decentralised energy production, where power is generated close to where it is consumed, reducing strain on the grid and making the energy system more resilient....",
       date: "2024-10-15",
       readTime: "8",
-      image: "./images/blog-1.png",
+      image: "/public/blog-1.png",
       link: "https://theprint.in/yourturn/subscriberwrites-role-of-solar-panels-in-reducing-grid-dependency/2233639/",
       tags: ["ThePrint", "Solar Energy", "YourTurn", "Technology"]
     },
@@ -77,7 +77,7 @@ export const Blogs = () => {
       excerpt: "On my recent trip to Ladakh in July, we made a plan to visit Ladakh, Nubra valley, and Pangong Lake. We did not even know about the Turtuk, so we made a plan to visit Turtuk from Nubra Valley....",
       date: "2024-10-28",
       readTime: "6",
-      image: "./images/blog-2.png",
+      image: "/public/blog-2.png",
       link: "https://medium.com/@nhk2harshit/turtuk-a-hidden-gem-in-ladakhs-cultural-mosaic-2b72ec6a58f4",
       tags: ["Travel", "Ladaakh", "Turtuk", "History"]
     },
