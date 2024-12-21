@@ -54,7 +54,7 @@ export const Experience = () => {
       company: "Vultr cloud",
       role: "Hackathon finalist",
       period: "aug 2024 - oct 2024",
-      logo: "/vultr.svg",
+      logo: "/my-portfolio//vultr.svg",
       description: [
         "worked on a vultr hackathon and built a web app for health monitoring",
         "used vultr cloud services to deploy the app",
