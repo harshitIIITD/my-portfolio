@@ -180,7 +180,7 @@ function App() {
             >
                 <div className="aspect-square rounded-full overflow-hidden border-4 border-blue-600/20">
                   <img
-                    src="/public/profile_picture.png" // Add your image path here
+                    src="/profile_picture.png"
                     alt="harshit"
                     className="w-full h-full object-cover"
                   />

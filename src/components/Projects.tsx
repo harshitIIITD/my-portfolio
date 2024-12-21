@@ -87,9 +87,7 @@ export const Projects = () => {
       title: "Digital Twin Technology for Personalized Medicine",
       description: "Digital Twin Technology involves creating a virtual replica of a physical entity or system that can be used for analysis, simulation, and optimization. In the context of personalized medicine, a digital twin is an individualized computational model of a patient's physiological systems. This model can simulate responses to treatments, predict disease progression, and assist in clinical decision-making, leading to more precise and effective healthcare interventions..",
       images: [
-        
-        "/public/project1-1.png"
-      
+        "/project1-1.png"
       ],
       technologies: ["Python", "MLOPS", "CI/CD", "NLP", "Docker"],
       link: "https://github.com/harshitIIITD/digital-twin-system/tree/main"
@@ -99,7 +97,7 @@ export const Projects = () => {
       title: "Healthcare Management System",
       description: "A comprehensive healthcare management web application built with Laravel, React, and Vultr cloud services. The system provides health assessments, MRI analysis, wellness planning, and educational content to users. It also includes a chatbot for answering health-related queries and a serverless inference engine for real-time data processing.",
       images: [
-        "/public/project1-2.png"
+        "/project1-2.png"
       ],
       technologies: ["Laravel", "React", "Vultr", "MySql", "PHP", "Python"],
       link: "https://github.com/harshitIIITD/Healthcare"
@@ -108,7 +106,7 @@ export const Projects = () => {
       title: "portfolio website",
       description: "A portfolio website build using react, TypeScript and Vite with adding smooth scroll and animations and also added dark mode feature, with 3d scene in the background and user friendly UI.",
       images: [
-        "/public/project1-2.png"
+        "/project1-2.png"
       ],
       technologies: ["typescript", "React", "git", "vite", "html", "csss"],
       link: "https://github.com/harshitIIITD/Healthcare"
