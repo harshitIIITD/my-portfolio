@@ -26,7 +26,7 @@ function App() {
       setDisplayText((current) => {
         if (current === "Harshit") {
           setShowIcon(true)
-          return "I_Love_Gaming"
+          return "I_LOVE_OPEN_SOURCE"
         }
         setShowIcon(false)
         return "Harshit"
@@ -54,8 +54,8 @@ function App() {
         style={{ opacity: socialOpacity, y: socialY }}
       >
         {[
-          { icon: Github, href: 'https://github.com/yourusername', label: 'GitHub' },
-          { icon: Twitter, href: 'https://twitter.com/yourusername', label: 'Twitter' },
+          { icon: Github, href: 'https://github.com/harshitIIITD', label: 'GitHub' },
+          { icon: Twitter, href: 'https://x.com/anipleades', label: 'Twitter' },
           { icon: Mail, href: 'mailto: anipleades@gmail.com', label: 'Email' }
         ].map(({ icon: Icon, href, label }) => (
           <motion.a
