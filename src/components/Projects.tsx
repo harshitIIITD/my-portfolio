@@ -97,7 +97,7 @@ export const Projects = () => {
       title: "Healthcare Management System",
       description: "A comprehensive healthcare management web application built with Laravel, React, and Vultr cloud services. The system provides health assessments, MRI analysis, wellness planning, and educational content to users. It also includes a chatbot for answering health-related queries and a serverless inference engine for real-time data processing.",
       images: [
-        "/project1-2.png"
+        "/my-portfolio/project1-2.png"
       ],
       technologies: ["Laravel", "React", "Vultr", "MySql", "PHP", "Python"],
       link: "https://github.com/harshitIIITD/Healthcare"
@@ -106,7 +106,7 @@ export const Projects = () => {
       title: "portfolio website",
       description: "A portfolio website build using react, TypeScript and Vite with adding smooth scroll and animations and also added dark mode feature, with 3d scene in the background and user friendly UI.",
       images: [
-        "/project1-2.png"
+        "/my-portfolio/project1-2.png"
       ],
       technologies: ["typescript", "React", "git", "vite", "html", "csss"],
       link: "https://github.com/harshitIIITD/Healthcare"

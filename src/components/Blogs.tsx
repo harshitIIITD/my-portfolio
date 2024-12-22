@@ -77,7 +77,7 @@ export const Blogs = () => {
       excerpt: "On my recent trip to Ladakh in July, we made a plan to visit Ladakh, Nubra valley, and Pangong Lake. We did not even know about the Turtuk, so we made a plan to visit Turtuk from Nubra Valley....",
       date: "2024-10-28",
       readTime: "6",
-      image: "/blog-2.png",
+      image: "/my-portfolio/blog-2.png",
       link: "https://medium.com/@nhk2harshit/turtuk-a-hidden-gem-in-ladakhs-cultural-mosaic-2b72ec6a58f4",
       tags: ["Travel", "Ladaakh", "Turtuk", "History"]
     },
