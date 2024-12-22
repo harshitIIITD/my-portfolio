@@ -87,7 +87,7 @@ export const Projects = () => {
       title: "Digital Twin Technology for Personalized Medicine",
       description: "Digital Twin Technology involves creating a virtual replica of a physical entity or system that can be used for analysis, simulation, and optimization. In the context of personalized medicine, a digital twin is an individualized computational model of a patient's physiological systems. This model can simulate responses to treatments, predict disease progression, and assist in clinical decision-making, leading to more precise and effective healthcare interventions..",
       images: [
-        "/project1-1.png"
+        "/my-portfolio/project1-1.png"
       ],
       technologies: ["Python", "MLOPS", "CI/CD", "NLP", "Docker"],
       link: "https://github.com/harshitIIITD/digital-twin-system/tree/main"

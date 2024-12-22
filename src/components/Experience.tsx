@@ -54,7 +54,7 @@ export const Experience = () => {
       company: "Vultr cloud",
       role: "Hackathon finalist",
       period: "aug 2024 - oct 2024",
-      logo: "/my-portfolio//vultr.svg",
+      logo: "/my-portfolio/vultr.svg",
       description: [
         "worked on a vultr hackathon and built a web app for health monitoring",
         "used vultr cloud services to deploy the app",
@@ -68,7 +68,7 @@ export const Experience = () => {
       company: "GE Healthcare",
       role: "Machine Learning Engineer",
       period: "Jan 2023 - Dec 2023",
-      logo: "/GE_healthcare.svg",
+      logo: "/my-portfolio/GE_healthcare.svg",
       description: [
         "worked on mri image segmentation and classification",
         "built a project on Digital Twin Technology for Personalized Medicine ",
@@ -80,7 +80,7 @@ export const Experience = () => {
       company: "Null Classes",
       role: "LLM engineer",
       period: "SEP 2024 - current",
-      logo: "/nullclass.svg",
+      logo: "/my-portfolio/nullclass.svg",
       description: [
         "worked on a serverless inference pipeline for a LLM",
         "worked with embeddings and vector databases to build a semantic search engine",

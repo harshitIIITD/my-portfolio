@@ -48,8 +48,8 @@ const SkillIcon = ({ name, icon, proficiency, level }: SkillProps) => {
 
 export const Skills = () => {
   const skills = [
-    { name: 'SQL', icon: 'https://github.com/harshitIIITD/my-portfolio/blob/93eac6e7ab51159cf3290f58faba93496f844d0f/public/images/aws.svg', proficiency: 'Advanced - 5 years', level: 'Advanced' },
-    { name: 'MySQL', icon: '/public/mysql.svg', proficiency: 'Advanced - 4 years', level: 'Advanced' },
+    { name: 'SQL', icon: '/my-portfolio/sql.svg', proficiency: 'Advanced - 5 years', level: 'Advanced' },
+    { name: 'MySQL', icon: '/my-portfolio/mysql.svg', proficiency: 'Advanced - 4 years', level: 'Advanced' },
     { name: 'Laravel', icon: '/public/Laravel.svg', proficiency: 'Intermediate - 2 years', level: 'Intermediate' },
     { name: 'AWS', icon: '/public/aws.svg', proficiency: 'Advanced - 3 years', level: 'Advanced' },
     { name: 'Git', icon: '/public/git.svg', proficiency: 'Expert - 6 years', level: 'Expert' },

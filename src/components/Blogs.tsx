@@ -68,7 +68,7 @@ export const Blogs = () => {
       excerpt: " Solar panels enable decentralised energy production, where power is generated close to where it is consumed, reducing strain on the grid and making the energy system more resilient....",
       date: "2024-10-15",
       readTime: "8",
-      image: "/blog-1.png",
+      image: "/my-portfolio/blog-1.png",
       link: "https://theprint.in/yourturn/subscriberwrites-role-of-solar-panels-in-reducing-grid-dependency/2233639/",
       tags: ["ThePrint", "Solar Energy", "YourTurn", "Technology"]
     },
