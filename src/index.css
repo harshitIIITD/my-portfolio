@@ -4,6 +4,9 @@
 
 :root {
   --primary-gradient: linear-gradient(to right, #4338ca, #6366f1);
+  --accent-color: #ff4081;
+  --dark-bg: #121212;
+  --dark-text: #e0e0e0;
 }
 
 body {
@@ -118,3 +121,21 @@ html {
   90% { transform: translate(-10%, 10%) }
 }
 
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+}
+
+a {
+  color: var(--accent-color);
+}
+
+button {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+button:hover {
+  background-color: darken(var(--accent-color), 10%);
+}
