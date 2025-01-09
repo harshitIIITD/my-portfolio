@@ -12,6 +12,7 @@ import { useEffect, useState, createContext, useContext } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import { Gamepad2 } from 'lucide-react'
 import { Blogs } from './components/Blogs'
+import GithubHeatmap from './components/GithubHeatmap'
 
 const ThemeContext = createContext()
 
@@ -233,6 +234,10 @@ function App() {
             <Blogs />
           </PageTransition>
           
+          <PageTransition>
+            <GithubHeatmap />
+          </PageTransition>
+          
         </main>
 
         <ScrollToTop />
@@ -281,7 +286,7 @@ const ScrollToTop = () => {
       aria-label="Scroll to top"
     >
       <ArrowUp className="w-6 h-6" />
-    </motion.button>
+    </motion.button
   ) : null
 }
 

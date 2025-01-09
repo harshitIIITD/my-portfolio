@@ -49,3 +49,55 @@ export default tseslint.config({
 })
 ```
 # my-portfolio
+
+## GitHub Heatmap Integration
+
+To integrate the GitHub heatmap of activity in your profile, follow these steps:
+
+1. **Install the `github-calendar` package**:
+   ```sh
+   npm install github-calendar
+   ```
+
+2. **Create a new component `GithubHeatmap.tsx`**:
+   ```tsx
+   import React, { useEffect, useRef } from 'react';
+   import GitHubCalendar from 'github-calendar';
+
+   const GithubHeatmap = () => {
+     const calendarRef = useRef(null);
+
+     useEffect(() => {
+       if (calendarRef.current) {
+         GitHubCalendar(calendarRef.current, 'harshitIIITD');
+       }
+     }, []);
+
+     return <div ref={calendarRef}></div>;
+   };
+
+   export default GithubHeatmap;
+   ```
+
+3. **Update `App.tsx` to include the `GithubHeatmap` component**:
+   ```tsx
+   import GithubHeatmap from './components/GithubHeatmap';
+
+   function App() {
+     return (
+       <div>
+         {/* Other components */}
+         <GithubHeatmap />
+       </div>
+     );
+   }
+
+   export default App;
+   ```
+
+4. **Run your application**:
+   ```sh
+   npm start
+   ```
+
+This will display the GitHub heatmap of activity in your profile section.
