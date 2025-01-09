@@ -25,18 +25,21 @@ const Project = ({ title, description, images, technologies, link }: ProjectProp
         <motion.div
           className="relative rounded-xl overflow-hidden aspect-video"
         >
-          <img
-            src={images[0]}
-            alt={`${title} screenshot`}
-            className="w-full h-full object-contain bg-gray-800/50"
-          />
+          <div className="aspect-video w-full max-w-4xl mx-auto rounded-xl overflow-hidden">
+            <img
+              src={images[0]}
+              alt={`${title} screenshot`}
+              className="w-full h-full object-cover"
+              loading="lazy"
+            />
+          </div>
         </motion.div>
       </div>
 
       {/* Content in the Middle */}
       <div className="space-y-4 text-center">
-        <h3 className="text-3xl font-bold">{title}</h3>
-        <p className="text-gray-300 max-w-2xl mx-auto">{description}</p>
+        <h3 className="text-[length:var(--fluid-h3)] font-bold">{title}</h3>
+        <p className="text-[length:var(--fluid-body)] text-gray-300">{description}</p>
         
         <div className="flex flex-wrap gap-2 justify-center">
           {technologies.map((tech) => (
@@ -129,7 +132,7 @@ export const Projects = () => {
         transition={{ duration: 0.8 }}
         className="container mx-auto px-4 relative z-10"
       >
-        <h2 className="text-center text-6xl font-bold mb-20 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
+        <h2 className="text-[length:var(--fluid-h2)] font-bold mb-20">
           PROJECTS
         </h2>
 
@@ -173,4 +176,4 @@ export const Projects = () => {
       </motion.div>
     </section>
   )
-} 
+}

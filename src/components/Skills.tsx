@@ -78,11 +78,11 @@ export const Skills = () => {
         transition={{ duration: 0.8 }}
         className="container mx-auto px-4 relative z-10"
       >
-        <h2 className="text-center text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
+        <h2 className="text-[length:var(--fluid-h2)] font-bold mb-8">
           SKILLS
         </h2>
         
-        <p className="text-center text-xl text-gray-400 mb-16">
+        <p className="text-[length:var(--fluid-body)] text-gray-400">
           HOVER OVER A SKILL FOR CURRENT PROFICIENCY
         </p>
 

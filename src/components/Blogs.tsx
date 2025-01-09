@@ -34,7 +34,7 @@ const BlogCard = ({ title, excerpt, date, readTime, image, link, tags }: BlogPos
           <span>{readTime} min read</span>
         </div>
         
-        <h3 className="text-xl font-bold mb-2 line-clamp-2">{title}</h3>
+        <h3 className="text-[length:var(--fluid-h3)] font-bold">{title}</h3>
         <p className="text-gray-400 mb-4 line-clamp-3">{excerpt}</p>
         
         <div className="flex flex-wrap gap-2 mb-4">
@@ -96,7 +96,7 @@ export const Blogs = () => {
         transition={{ duration: 0.8 }}
         className="container mx-auto px-4 relative z-10"
       >
-        <h2 className="text-center text-6xl font-bold mb-8 bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 to-purple-500">
+        <h2 className="text-[length:var(--fluid-h2)] font-bold mb-8">
           MY BLOGS
         </h2>
         
