@@ -23,8 +23,8 @@ const ExperienceCard = ({ company, role, period, description, technologies, logo
           <img src={logo} alt={company} className="w-full h-full object-contain" />
         </div>
       )}
-      <h3 className="text-2xl font-bold mb-2">{role}</h3>
-      <div className="text-indigo-400 mb-2">{company}</div>
+      <h3 className="text-[length:var(--fluid-h3)] font-bold mb-2">{role}</h3>
+      <div className="text-[length:var(--fluid-body)] text-indigo-400">{company}</div>
       <div className="text-gray-400 mb-4">{period}</div>
       <ul className="space-y-2 mb-6">
         {description.map((item, index) => (

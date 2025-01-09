@@ -8,7 +8,7 @@ export const About = () => {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold mb-16 text-center"
+          className="text-[length:var(--fluid-h2)] font-bold mb-8"
         >
           About Me
         </motion.h2>
@@ -35,7 +35,7 @@ export const About = () => {
             transition={{ duration: 0.8 }}
             className="space-y-6"
           >
-            <p className="text-xl text-gray-300 leading-relaxed">
+            <p className="text-[length:var(--fluid-body)] text-gray-300">
               I'm a passionate software engineer with expertise in building modern web and android applications.
               I studied computer science with applied mathematics at the <span className="text-red-500">Indraprastha Institute of Information Technology</span>, Delhi (IIIT-D) in (2020-2024).
 

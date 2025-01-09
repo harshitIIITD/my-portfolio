@@ -12,11 +12,17 @@ import { useEffect, useState, createContext, useContext } from 'react'
 import { AnimatePresence } from 'framer-motion'
 import { Gamepad2 } from 'lucide-react'
 import { Blogs } from './components/Blogs'
-import GithubHeatmap from './components/GithubHeatmap'
+import GitHubHeatmap from './components/GithubHeatmap'
+import TopLanguages from './components/TopLanguages';
 
-const ThemeContext = createContext()
+const ThemeContext = createContext({
+  theme: 'light',
+  toggleTheme: () => {},
+})
+
 
 function App() {
+  const accessToken = import.meta.env.VITE_REACT_GITHUB_PAT;
   const { scrollYProgress } = useScroll()
   const socialOpacity = useTransform(scrollYProgress, [0, 0.1], [0, 1])
   const socialY = useTransform(scrollYProgress, [0, 0.1], [20, 0])
@@ -235,7 +241,11 @@ function App() {
           </PageTransition>
           
           <PageTransition>
-            <GithubHeatmap />
+          <GitHubHeatmap 
+            username="harshitIIITD"
+            accessToken={accessToken}
+          />
+          
           </PageTransition>
           
         </main>
@@ -286,7 +296,7 @@ const ScrollToTop = () => {
       aria-label="Scroll to top"
     >
       <ArrowUp className="w-6 h-6" />
-    </motion.button
+    </motion.button>
   ) : null
 }
 

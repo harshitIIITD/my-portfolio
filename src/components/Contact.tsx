@@ -10,8 +10,8 @@ export const Contact = () => {
         transition={{ duration: 0.8 }}
         className="max-w-4xl mx-auto text-center"
       >
-        <h2 className="text-4xl md:text-5xl font-bold mb-8">Get In Touch</h2>
-        <p className="text-xl text-gray-400 mb-12">
+        <h2 className="text-[length:var(--fluid-h2)] font-bold mb-8">Get In Touch</h2>
+        <p className="text-[length:var(--fluid-body)] text-gray-400">
           I'm currently open to new opportunities. Whether you have a question or just want to say hi, 
           I'll try my best to get back to you!
         </p>
@@ -43,12 +43,14 @@ export const Contact = () => {
           <input
             type="text"
             placeholder="Your Name"
-            className="w-full px-6 py-4 bg-white/5 rounded-lg border border-white/10 focus:border-blue-500 outline-none"
+            className="w-full px-6 py-4 bg-white/5 rounded-lg border border-white/10 focus:border-blue-500 outline-none resize-none"
+            style={{ minHeight: '44px' }} // Minimum touch target height
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="w-full px-6 py-4 bg-white/5 rounded-lg border border-white/10 focus:border-blue-500 outline-none"
+            className="w-full px-6 py-4 bg-white/5 rounded-lg border border-white/10 focus:border-blue-500 outline-none resize-none"
+            style={{ minHeight: '44px' }} // Minimum touch target height
           />
           <textarea
             placeholder="Your Message"
@@ -66,4 +68,4 @@ export const Contact = () => {
       </motion.div>
     </section>
   )
-} 
+}
